@@ -1,6 +1,6 @@
 {
   "name": "@whittakertech/virgil",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build-phase sigil forge for static site artifacts",
   "type": "module",
   "main": "./dist/index.js",
