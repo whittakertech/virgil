@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc && npm run copy:assets",
     "prepare": "npm run build",
-    "copy:assets": "cp -R src/templates dist/templates",
+    "copy:assets": "cp -R src/templates dist",
     "dev": "tsc --watch",
     "test": "node --test dist/**/*.test.js"
   },
