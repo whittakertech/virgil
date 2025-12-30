@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "WhittakerTech",
+    "logo": "docs/public/logo.svg",
+    "color": "#5b7cff"
+  },
+  "product": {
+    "name": "MosaicJS",
+    "logo": "docs/public/mosaic-logo.svg",
+    "version": "0.3.0"
+  },
+  "outputs": [
+    {
+      "type": "og-image",
+      "id": "getting-started",
+      "page": {
+        "title": "Getting Started",
+        "url": "https://mosaicjs.whittakertech.com/getting-started",
+        "description": "Learn how to integrate MosaicJS into your project"
+      }
+    },
+    {
+      "type": "og-image",
+      "id": "api-reference",
+      "page": {
+        "title": "API Reference",
+        "url": "https://mosaicjs.whittakertech.com/api",
+        "description": "Complete API documentation for MosaicJS"
+      }
+    },
+    {
+      "type": "sitemap",
+      "id": "main",
+      "baseUrl": "https://mosaicjs.whittakertech.com",
+      "pages": [
+        {
+          "path": "/",
+          "changefreq": "weekly",
+          "priority": 1.0
+        },
+        {
+          "path": "/getting-started",
+          "changefreq": "monthly",
+          "priority": 0.9
+        },
+        {
+          "path": "/api",
+          "changefreq": "weekly",
+          "priority": 0.8
+        }
+      ]
+    },
+    {
+      "type": "robots",
+      "id": "default",
+      "rules": [
+        {
+          "userAgent": "*",
+          "allow": ["/"]
+        }
+      ],
+      "sitemap": "https://mosaicjs.whittakertech.com/sitemap.xml"
+    }
+  ]
+}
